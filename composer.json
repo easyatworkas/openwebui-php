@@ -1,0 +1,19 @@
+{
+    "name": "easyatwork/openwebui",
+    "description": "PHP client lib for OpenWebUI.",
+    "type": "library",
+    "require": {
+        "guzzlehttp/guzzle": "^7.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "EasyAtWork\\OpenWebUi\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jim C K Flaten",
+            "email": "jim@easyatwork.com"
+        }
+    ]
+}
