@@ -1,5 +1,5 @@
 {
-    "name": "easyatwork/openwebui",
+    "name": "easyatworkas/openwebui",
     "description": "PHP client lib for OpenWebUI.",
     "type": "library",
     "autoload": {
