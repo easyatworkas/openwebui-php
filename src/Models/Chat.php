@@ -73,7 +73,7 @@ class Chat extends Model
     /**
      * @return Message|null
      */
-    public function getLastMessage(): ?Message
+    public function getLastMessage()
     {
         return end($this->messages);
     }

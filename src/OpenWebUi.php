@@ -65,10 +65,10 @@ class OpenWebUi
 
     /**
      * @param string $id
-     * @return array
+     * @return array|null
      * @throws Exception
      */
-    public function getModel(string $id): ?array
+    public function getModel(string $id)
     {
         foreach ($this->getClient()->models() as $model) {
             if ($model['id'] == $id) {
