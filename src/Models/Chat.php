@@ -52,6 +52,16 @@ class Chat extends Model
     }
 
     /**
+     * @param Message[] $messages
+     */
+    public function setMessages(array $messages): self
+    {
+        $this->messages = $messages;
+
+        return $this;
+    }
+
+    /**
      * @param Message $message
      * @return $this
      */
